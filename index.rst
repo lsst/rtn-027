@@ -42,16 +42,11 @@
 
 .. sectnum::
 
-.. TODO: Delete the note below before merging new content to the master branch.
-
-.. note::
-
-   **This technote is not yet published.**
-
    Summary of the validation testing performed on the Data Preview 0.2 processing.
 
-.. Add content here.
-.. Do not include the document title (it's automatically added from metadata.yaml).
+
+.. include:: input_data.rst
+
 
 .. .. rubric:: References
 
