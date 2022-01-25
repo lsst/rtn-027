@@ -169,13 +169,12 @@ The deeper nature of tract 4431 is immediately apparent, as it has "observations
 Also apparent in most light curves is the larger scatter of y-band data points.
 In each Figure, the y-axis is auto-scaled to fit the data.
 
-Interestingly, quite a few flux measurements are less than zero, which suggests some calibration or flux centroid measurement step may not be performing well in all situations.
-This issue is especially pronounced in tract 4431, and may be exacerbated by most (all?) of the objects selected being from tract 0, near the edge (corner) of the simulated focal plane.
+Interestingly, some few flux measurements are less than zero, which suggests some calibration or flux centroid measurement step may not be performing well in all situations.
+This is probably mostly happening with fainter noise-dominated sources.
+It would be worthwhile to examine a cutout image of at least one epoch for each object's light curve to get a better handle on this.
 
-Overall, the light curves for tracts 3828 and 3829 look roughly as expected, with significant noise in the y-band.
-In contrast, most if not all the light curves for tract 4431 appear to be dominated by noise.
-Unlike a handful of objects in tract 3828 and 3829, none of the 20 light curves visually inspected in tract 4431 go significantly outside the +/- 4000 nJy flux range.
-This warrants a closer look.
+Overall, the light curves for all tracts look roughly as expected, with significant noise in the y-band.
+The process for selecting which light curves to plot could be improved by imposing a signal-to-noise or faint magnitude cutoff, as the handful of noise-dominated sources are probably very faint and not worth examining in detail.
 
 In the future, we plan to turn the notebook analysis summarized here into a Pipeline Task that creates and persists light curve plots and relevant summary statistics on a per-object basis via the Butler.
 This will enable a more thorough variability analysis.
