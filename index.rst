@@ -53,6 +53,7 @@
 .. Add content here.
 .. Do not include the document title (it's automatically added from metadata.yaml).
 
+.. include:: visitPlots.rst
 .. .. rubric:: References
 
 .. Make in-text citations with: :cite:`bibkey`.
