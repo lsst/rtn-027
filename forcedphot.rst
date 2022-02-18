@@ -169,13 +169,18 @@ The deeper nature of tract 4431 is immediately apparent, as it has "observations
 Also apparent in most light curves is the larger scatter of y-band data points.
 In each Figure, the y-axis is auto-scaled to fit the data.
 
-Interestingly, some few flux measurements are less than zero, which suggests some calibration or flux centroid measurement step may not be performing well in all situations.
+A couple of likely truly-variable astrophysically-interesting objects appear in the third and fifth plots shown for tract 3828.
+Noteable features include small error bars and significant flux changes over time.
+
+Interestingly, some few flux measurements are less than zero, but they typically have large error bars that make them consistent with zero flux.
 This is probably mostly happening with fainter noise-dominated sources.
 It would be worthwhile to examine a cutout image of at least one epoch for each object's light curve to get a better handle on this.
 
 Overall, the light curves for all tracts look roughly as expected, with significant noise in the y-band.
+The y-band fluxes also tend to be brightest for all the objects plotted; it's unclear if this is a real trend or just small number statistics.
 The process for selecting which light curves to plot could be improved by imposing a signal-to-noise or faint magnitude cutoff, as the handful of noise-dominated sources are probably very faint and not worth examining in detail.
 
 In the future, we plan to turn the notebook analysis summarized here into a Pipeline Task that creates and persists light curve plots and relevant summary statistics on a per-object basis via the Butler.
 This will enable a more thorough variability analysis.
 In particular, it will enable us to investigate how accurately these metrics measure variability for known variable objects and better assess the performance of forced photometry in the Science Pipelines.
+We intend to use one or more variability metrics to identify which objects exhibit real astrophysical variability along with a high signal-to-noise ratio, because they are the ones we ought to examine in more detail to assessing pipeline performance.
