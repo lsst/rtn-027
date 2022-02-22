@@ -50,6 +50,8 @@
 
    Summary of the validation testing performed on the Data Preview 0.2 processing.
 
+.. include:: astrometry.rst
+
 .. Add content here.
 .. Do not include the document title (it's automatically added from metadata.yaml).
 
