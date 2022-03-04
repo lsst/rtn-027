@@ -55,7 +55,7 @@ Introduction
 
 To be written.
 
-.. .. include:: astrometry.rst
+.. include:: astrometry.rst
 
 .. include:: forcedphot.rst
 
