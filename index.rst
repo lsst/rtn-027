@@ -48,19 +48,21 @@
 
    **This technote is not yet published.**
 
-   Summary of the validation testing performed on the Data Preview 0.2 processing.
+Summary of the validation testing performed on the Data Preview 0.2 processing.
+This technote summarizes some of the validation testing performed during the Data Preview 0.2
+processing. Many of these were used as part of approving the start of various steps of the
+processing, and thus were only performed on a limited-scale pilot run or were run at intermediate
+stages in the processing. As a result, these should not be treated as an evaluation of the final
+processing results for the DP0.2 processing.
 
 Introduction
 ============
 
-To be written.
-
-.. .. include:: astrometry.rst
+.. include:: astrometry.rst
 
 .. include:: forcedphot.rst
 
-.. Add content here.
-.. Do not include the document title (it's automatically added from metadata.yaml).
+.. include:: visitPlots.rst
 
 .. .. rubric:: References
 
