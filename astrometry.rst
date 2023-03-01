@@ -1,10 +1,12 @@
 .. _section-sfm-astrom-vv:
+
 Single Frame Processing: Astrometry V&V
 =======================================
 
 A detailed investigation on the quality of the astrometric calibration of the Single Frame Processing (SFP) stage of the Rubin Observatory :abbr:`LSST (Legacy Survey of Space and Time)` Science Pipelines was performed on the `PREOPS-850`_
+Jira ticket  A brief summary of the findings is provided here.  Please refer to that ticket for further plots and details.  Note that this investigation does not include any measurement or assessment of the "Key Performance Metrics" defined in DOCUMENT?, which largely cover the inter-visit repeatablility statistics.  These will be computed using the faro <https://github.com/lsst/faro>`_ package and reported elsewhere.
+
 .. _PREOPS-850: https://jira.lsstcorp.org/browse/PREOPS-850/
-Jira ticket  A brief summary of the findings is provided here.  Please refer to that ticket for further plots and details.  Note that this investigation does not include any measurement or assessment of the "Key Performance Metrics" defined in DOCUMENT?, which largely cover the inter-visit repeatablility statistics.  These will be computed using the faro <https://github.com/lsst/faro>`_ package and reported ELSEWHERE.
 
 The executive summary is that, as of the v23_0_0_rc3 tag of the pipelines, the DP0.2 V&V team asserts that the quality of the astrometric calibration per visit for SFP meets expectations for the SFP to proceed.
 
@@ -22,6 +24,7 @@ The following plots show the before (two outliers observed) and after (two outli
 .. figure:: /_static/astrometryPlots/astromDistMeanVsStd_4431_rc2_vs_rc3.png
    :figwidth: 75 %
    :name: fig-astrom-distance-std-vs-mean
+
 Standard deviation versus mean on-sky distance between reference and matched sources for SFP astrometric calibration. Left: pre-thresholding.  Right: post-thresholding.
 
 
@@ -34,6 +37,7 @@ The following plots the mean astrometry distance as a function of position in th
    :figwidth: 40 %
    :name: fig-astrom-distance-fp
    :target: ../_images/astromDistanceStdVsMeanAllBands_4431.png
+
 Distribution of the mean astrometry distance as a function of position in the focal plane.  Each visit/detector gets a single point and, for visualization purposes, the position each point is staggered within the detector boundaries.
 
 No trend with position on the focal plane is observed.

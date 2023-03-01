@@ -63,6 +63,7 @@ Introduction
 .. include:: forcedphot.rst
 
 .. include:: visitPlots.rst
+
 .. .. rubric:: References
 
 .. Make in-text citations with: :cite:`bibkey`.

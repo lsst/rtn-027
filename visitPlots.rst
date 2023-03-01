@@ -1,3 +1,4 @@
+
 Visit Plots
 ===========
 
@@ -11,9 +12,6 @@ in the later processing.
 .. figure:: /_static/scatterPlotVisit_CircAp12_sub_PS_meas_scatter_HSC_i_HSC-I_1228_hsc_rings_v1_u_sr525_visitPlots_20211112T023306Z.png
     :name: magOffset
     :target: ../_images/scatterPlotVisit_CircAp12_sub_PS_meas_scatter_HSC_i_HSC-I_1228_hsc_rings_v1_u_sr525_visitPlots_20211112T023306Z.png
-    :alt: This plot shows the magnitude offset for HSC data, while this is not
-    the DP0 data it was processed with the same pipeline and shares the same
-    issues.
 
 This issue was fixed before the main processing began.
 
@@ -23,11 +21,9 @@ Once the initial data had been studied the large scale processing started.
 Plots were made of this data at the visit level. Plots for one, representative,
 visit are included here.
 
-.. figure: /_static/scatterPlot_CircAp12-PS_all.png
+.. figure:: /_static/scatterPlot_CircAp12-PS_all.png
     :name: scatterPlot_CircAp12-PS_all
     :target: ../_images/scatterPlot_CircAp12-PS_all.png
-    :alt: The magnitude for a 12 pixel circular aperture - the PSF magntiude
-    for stars and galaxies.
 
 .. figure: /_static/scatterPlot_CircAp12-PS_gals.png
     :name: scatterPlot_CircAp12-PS_gals
